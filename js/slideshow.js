@@ -1,0 +1,6 @@
+slideDelay: 4000,
+fadeDelay: 35,
+wrapperID: "slideShowImages",
+buttonID: "slideShowButton",
+buttonStartText: "Start Slides",
+buttonStopText: "Stop Slides",
