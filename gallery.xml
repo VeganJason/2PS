@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gallery frameColor="0xFFFFFF" frameWidth="15" imagePadding="20" displayTime="6" enableRightClickOpen="true">
+
+<image>
+   <url>images/img1.jpg</url>
+   <caption><![CDATA[<font size="50">Mosiac Cow</font><br>I made this mosiac cow becuase I like cows and it looks like a puzzle. It was one of the easiest assignments with Photoshop. I did that assignment without any help.]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>images/slide2.jpg</url>
+   <caption><![CDATA[<font size="50">Liquified Pig </font><br> I made a pig because pigs are cute. Pigs are also not food. This assignment was not difficult. I learned about filters with that assignment. ]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>images/slide4.jpg</url>
+    <caption><![CDATA[<font size="50">San Francisco</font><br>This is the first thing I ever made in Photoshop. I found it super difficult because I never used Photoshop before. My friends helped me a lot with this assignment.]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>images/walk2.swf</url>
+   <caption><![CDATA[<font size="50">Walking Gif</font><br>This is the first GIF I made. It was not very difficult. It took a while to get it to work on my website.]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>images/org.swf</url>
+   <caption><![CDATA[<font size="50">Orginal  Gif</font><br>This is an orginal GIF I made. I did not know what else to do so I made a guy walking to a door. ]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+ <url>images/gif1.swf</url>
+   <caption><![CDATA[<font size="50"> Photoshop Gif</font><br> I made this GIF because I don't want my picture to be on photoshop. This GIF was really east for me. So yeah, do NOT publish. ]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+ <url>images/gif2.swf</url>
+    <caption><![CDATA[<font size="50"> Roasted Pig Gif</font><br>Pigs are NOT food! I made this GIF to spread that message. It was pretty easy to make.]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+ <url>images/gif3.swf</url>
+   <caption><![CDATA[<font size="50"> Cookie Gif</font><br>I took a picture of a cookie. Cookie monster stole it from me. This GIF makes me hungry. ]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<!--<image>
+ <url>images/home_1.jpg</url>
+   <caption>My logo... more pictures to come soon.</caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+  <url>images/home_1.jpg</url>
+   <caption>My logo... more pictures to come soon.</caption>
+   <width>700</width>
+   <height>465</height>
+</image>-->
+<image>
+   <url>images/more.jpg</url>
+   <caption>More Assignments coming soon.</caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+
+</gallery> 
