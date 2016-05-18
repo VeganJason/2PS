@@ -1,0 +1,366 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Jason Guan</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+	  <div id="banner">
+	    <div id="welcome">
+	      <h2> [VEGAN POWER] </h2>
+	    </div><!--close welcome-->			  	
+	  </div><!--close banner-->	
+	</header>
+	
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+		  <li><a href="flash.html">Flash Animations</a></li>
+          <li><a href="final.html"> Final</a></li>
+                 </ul>
+      </div><!--close menubar-->	
+    </nav>	
+    
+	<div id="site_content">		
+
+      <!--<div class="slideshow">
+      <ul class="slideshow">-->
+          <!-- <li class="show">--><img width="940" height="300" src="images/home_1.jpg"/><!--</li><li class="show">--><!--<img width="940" height="300" src="images/home_2.jpg" />--><!--</li>
+                 </ul> -->
+    <!-- </div> --> <!--close slideshow-->
+  	
+	
+	  <div class="sidebar_container"> 
+<h1> <strong>Animals Killed Since You Opened This Website</strong></h1>      
+		<div class="sidebar">
+          <div class="sidebar_item">
+           <div id="counter" class="count">
+		  <div id="counter0"><span id="count0">0</span> <span id="desc0">
+chickens</span></div>
+<div id="counter1"><span id="count1">0</span> <span id="desc1">
+ducks</span></div>
+<div id="counter2"><span id="count2">0</span> <span id="desc2">
+
+pigs</span></div>
+<div id="counter3"><span id="count3">0</span> <span id="desc3">
+rabbits</span></div>
+<div id="counter4"><span id="count4">0</span> <span id="desc4">
+turkeys</span></div>
+<div id="counter5"><span id="count5">0</span> <span id="desc5">
+geese</span></div>
+
+<div id="counter6"><span id="count6">0</span> <span id="desc6">sheep
+</span></div>
+<div id="counter7"><span id="count7">0</span> <span id="desc7">
+goats</span></div>
+<div id="counter8"><span id="count8">0</span> <span id="desc8"> cows
+and calves</span></div>
+<div id="counter9"><span id="count9">0</span> <span id="desc9">
+
+rodents</span></div>
+<div id="counter10"><span id="count10">0</span> <span id="desc10">
+pigeons and other birds</span></div>
+<div id="counter11"><span id="count11">0</span> <span id="desc11">
+buffaloes</span></div>
+<div id="counter12"><span id="count12">0</span> <span id="desc12">
+horses</span></div>
+
+<div id="counter13"><span id="count13">0</span> <span id="desc13">
+donkeys and mules</span></div>
+<div id="counter14"><span id="count14">0</span> <span id="desc14">
+camels and other camelids</span></div>
+<p>
+<span id="count_descr" class="count_desc">
+</span></p></div>
+<script>
+var persecond = 8;
+var numbers = [ 45895000000, 2262000000, 1244000000, 857000000,
+691000000, 533000000, 515000000, 345000000, 292000000, 65000000,
+63000000, 23000000, 4000000, 3000000, 2000000];
+var counts = [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ];
+var rate = [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ];
+function incrementcounter()
+{
+var num;
+var str;
+var th;
+for (var i = 0; i < numbers.length; ++i) {
+counts[i] += rate[i];
+str = "";
+num = Math.round(counts[i]);
+while (num > 1000) {
+th = num % 1000;
+if (th < 10)
+th = "00" + th;
+else if (th < 100)
+th = "0" + th;
+str = "," + th + str;
+num = Math.floor(num / 1000);
+}
+str = num + str;
+document.getElementById("count" + i).innerHTML = str;
+}
+}
+var intervalid = 0;
+function initcounter()
+{
+var disp;
+for (var i = 0; i < numbers.length; ++i) {
+if (numbers[i] == 0) {
+disp = "none";
+} else {
+disp = "block";
+}
+document.getElementById("counter" + i).style.display = disp;
+rate[i] = numbers[i] / 365 / 24 / 60 / 60 / persecond;
+counts[i] = 0;
+}
+if (intervalid != 0)
+clearInterval(intervalid);
+intervalid = setInterval("incrementcounter()", 1000 / persecond);
+}
+initcounter();
+</script>
+<!-- END Animal Kill Counter -->
+They do not include the billions of marine animals killed each year. They do not include the millions of animals killed in laboratories, fur farms, animal shelters, zoos, marine parks, or circuses. Nor do they include the animals killed by human negligence, blood sports, abuse, or extermination attempts.
+</div>
+</div>
+</div>
+	
+	
+	  <div id="content">
+        <div class="content_item">
+		  <h1> Shape Tween	 </h1> 
+          <p> Shape tween looks better than the classic tween. I learned that you have to break the image/words to get it to shape tween. This assignment was frustrating.  </p><br/>
+<iframe src="images/stween.swf"height="500px" width="600px">
+   
+		  <div class="content_imagetext">
+		    <div class="content_image">
+		     	        </div>
+		    
+		  </div><!--close content_imagetext-->		  
+		  <div class="content_container">
+		    <p>Click below to return home.</p>
+		  	<div class="button_small">
+		      <a href="index.html">Home</a>
+		    </div><!--close button_small-->
+		  </div><!--close content_container-->
+          <div class="content_container">
+		    <p>Click below to go to my Photoshop gallery.</p>          
+		  	<div class="button_small">
+		      <a href="gallery.html">Gallery</a>
+		    </div><!--close button_small-->		  
+		  </div><!--close content_container-->			  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	
+	</div><!--close site_content-->  	
+  
+    <footer>
+	  <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>|<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Jason Guan</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+	  <div id="banner">
+	    <div id="welcome">
+	      <h2> [VEGAN POWER] </h2>
+	    </div><!--close welcome-->			  	
+	  </div><!--close banner-->	
+	</header>
+	
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+		  <li><a href="flash.html">Flash Animations</a></li>
+          <li><a href="final.html"> Final</a></li>
+                 </ul>
+      </div><!--close menubar-->	
+    </nav>	
+    
+	<div id="site_content">		
+
+      <!--<div class="slideshow">
+      <ul class="slideshow">-->
+          <!-- <li class="show">--><img width="940" height="300" src="images/home_1.jpg"/><!--</li><li class="show">--><!--<img width="940" height="300" src="images/home_2.jpg" />--><!--</li>
+                 </ul> -->
+    <!-- </div> --> <!--close slideshow-->
+  	
+	
+	  <div class="sidebar_container"> 
+<h1> <strong>Animals Killed Since You Opened This Website</strong></h1>      
+		<div class="sidebar">
+          <div class="sidebar_item">
+           <div id="counter" class="count">
+		  <div id="counter0"><span id="count0">0</span> <span id="desc0">
+chickens</span></div>
+<div id="counter1"><span id="count1">0</span> <span id="desc1">
+ducks</span></div>
+<div id="counter2"><span id="count2">0</span> <span id="desc2">
+
+pigs</span></div>
+<div id="counter3"><span id="count3">0</span> <span id="desc3">
+rabbits</span></div>
+<div id="counter4"><span id="count4">0</span> <span id="desc4">
+turkeys</span></div>
+<div id="counter5"><span id="count5">0</span> <span id="desc5">
+geese</span></div>
+
+<div id="counter6"><span id="count6">0</span> <span id="desc6">sheep
+</span></div>
+<div id="counter7"><span id="count7">0</span> <span id="desc7">
+goats</span></div>
+<div id="counter8"><span id="count8">0</span> <span id="desc8"> cows
+and calves</span></div>
+<div id="counter9"><span id="count9">0</span> <span id="desc9">
+
+rodents</span></div>
+<div id="counter10"><span id="count10">0</span> <span id="desc10">
+pigeons and other birds</span></div>
+<div id="counter11"><span id="count11">0</span> <span id="desc11">
+buffaloes</span></div>
+<div id="counter12"><span id="count12">0</span> <span id="desc12">
+horses</span></div>
+
+<div id="counter13"><span id="count13">0</span> <span id="desc13">
+donkeys and mules</span></div>
+<div id="counter14"><span id="count14">0</span> <span id="desc14">
+camels and other camelids</span></div>
+<p>
+<span id="count_descr" class="count_desc">
+</span></p></div>
+<script>
+var persecond = 8;
+var numbers = [ 45895000000, 2262000000, 1244000000, 857000000,
+691000000, 533000000, 515000000, 345000000, 292000000, 65000000,
+63000000, 23000000, 4000000, 3000000, 2000000];
+var counts = [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ];
+var rate = [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ];
+function incrementcounter()
+{
+var num;
+var str;
+var th;
+for (var i = 0; i < numbers.length; ++i) {
+counts[i] += rate[i];
+str = "";
+num = Math.round(counts[i]);
+while (num > 1000) {
+th = num % 1000;
+if (th < 10)
+th = "00" + th;
+else if (th < 100)
+th = "0" + th;
+str = "," + th + str;
+num = Math.floor(num / 1000);
+}
+str = num + str;
+document.getElementById("count" + i).innerHTML = str;
+}
+}
+var intervalid = 0;
+function initcounter()
+{
+var disp;
+for (var i = 0; i < numbers.length; ++i) {
+if (numbers[i] == 0) {
+disp = "none";
+} else {
+disp = "block";
+}
+document.getElementById("counter" + i).style.display = disp;
+rate[i] = numbers[i] / 365 / 24 / 60 / 60 / persecond;
+counts[i] = 0;
+}
+if (intervalid != 0)
+clearInterval(intervalid);
+intervalid = setInterval("incrementcounter()", 1000 / persecond);
+}
+initcounter();
+</script>
+<!-- END Animal Kill Counter -->
+They do not include the billions of marine animals killed each year. They do not include the millions of animals killed in laboratories, fur farms, animal shelters, zoos, marine parks, or circuses. Nor do they include the animals killed by human negligence, blood sports, abuse, or extermination attempts.
+</div>
+</div>
+</div>
+	
+	
+	  <div id="content">
+        <div class="content_item">
+		  <h1> Shape Tween	 </h1> 
+          <p> Shape tween looks better than the classic tween. I learned that you have to break the image/words to get it to shape tween. This assignment was frustrating.  </p><br/>
+<iframe src="images/stween.swf"height="500px" width="600px">
+   
+		  <div class="content_imagetext">
+		    <div class="content_image">
+		     	        </div>
+		    
+		  </div><!--close content_imagetext-->		  
+		  <div class="content_container">
+		    <p>Click below to return home.</p>
+		  	<div class="button_small">
+		      <a href="index.html">Home</a>
+		    </div><!--close button_small-->
+		  </div><!--close content_container-->
+          <div class="content_container">
+		    <p>Click below to go to my Photoshop gallery.</p>          
+		  	<div class="button_small">
+		      <a href="gallery.html">Gallery</a>
+		    </div><!--close button_small-->		  
+		  </div><!--close content_container-->			  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	
+	</div><!--close site_content-->  	
+  
+    <footer>
+	  <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>|<a href="flash.html">Flash Animations</a>|<a href="final.html">Final</a>   <br/><br/>
+	
+    </footer> 
+  
+  </div><!--close main-->
+  
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  
+</body>
+</html>
+<a href="final.html">Final</a>   <br/><br/>
+	
+    </footer> 
+  
+  </div><!--close main-->
+  
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  
+</body>
+</html>
